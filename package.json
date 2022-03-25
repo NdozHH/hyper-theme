@@ -1,0 +1,21 @@
+{
+  "name": "@ndozhh/hyper-theme",
+  "version": "1.0.0",
+  "description": "This is my custom theme for Hyper 🎆",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NdozHH/ndozhh-hyper-theme.git"
+  },
+  "keywords": [],
+  "author": "Juan David Cano Hernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NdozHH/ndozhh-hyper-theme/issues"
+  },
+  "homepage": "https://github.com/NdozHH/ndozhh-hyper-theme#readme"
+}
