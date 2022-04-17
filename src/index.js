@@ -1,11 +1,11 @@
-const { BaseColors, Colors, ConfigColors } = require("./colors");
+import { BaseColors, Colors, ConfigColors } from './colors'
 
-const decorateConfig = (config) => {
+const decorateConfig = config => {
   const myConfig = {
-    cursorShape: "BEAM",
+    cursorShape: 'BEAM',
     fontSize: 16,
     css: `
-      ${config.css || ""}
+      ${config.css || ''}
       .hyper_main {
         border-width: 2px !important;
         border-color: ${BaseColors.BLACK} !important;
@@ -60,11 +60,9 @@ const decorateConfig = (config) => {
       ...config.colors,
       ...Colors,
     },
-  };
+  }
 
-  return Object.assign({}, config, myConfig);
-};
+  return Object.assign({}, config, myConfig)
+}
 
-module.exports = {
-  decorateConfig,
-};
+export { decorateConfig }
